@@ -20,12 +20,12 @@ const egresos=amounts
    <>
    
    
-   <div>
+   <div className='flex justify-between my-2'>
       <h4>Ingresos</h4>
        <p>{ingresos}</p>
 
    </div>
-   <div>
+   <div  className='flex justify-between my-2'>
       <h4>Egresos</h4>   
       <p>{egresos}</p>
 
